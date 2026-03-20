@@ -18,8 +18,8 @@ MongoDB Atlas stores all crawled data in the cloud,
 Flask app takes your search query and runs a full-text search on the database,
 Results are displayed back to you instantly.
 
-
-Project Structure
+'''
+#Project Structure
 Ycseek/
 ├── app.py                  # Flask app entry point
 ├── requirements.txt        # Dependencies
@@ -35,6 +35,7 @@ Ycseek/
     └── includes/
         ├── _navbar.html
         └── _messages.html
+'''
 
 Tech Stack
 LayerTechnologyBackendPython, FlaskCrawlerRequests, BeautifulSoup4DatabaseMongoDB AtlasDeploymentRenderEnvironmentpython-dotenv
